@@ -1,5 +1,6 @@
-# Find data type of the parameters in Javascript.
-This Javascript function determines whether an input argument is a Number, String, Boolean, Function, Object, Array, Undefined, or Null by examining its data type.
+# Find the data type of the parameters in Javascript.
+This Javascript function determines whether an input argument is a Number, String, Boolean,
+Function, Object, Array, Undefined, or Null by examining its data type.<hr>
 ### Algorithm
 - step 1: Define a function which contains a parameter.
 - step 2: console.log the parameter and type of parameter.
