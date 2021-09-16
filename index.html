@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Types in Javascript</title>
+</head>
+
+<body>
+    <p id="main"> hello</p>
+    <script type="text/Javascript">
+
+function dataType(parameter) {
+    this.parameter = parameter;
+    console.log(`@AG LN17 The value is ${parameter} and its dataType is:`,typeof (parameter));
+    
+}
+let number = dataType(101);
+let string = dataType("hello");
+let boolean = dataType(true);
+let object = dataType({name:"arun",number:007});
+let Array = dataType(["array",1,2,3,4,5]);
+let nul = dataType(null);
+console.log(`@AG LN26 The value is ${function() {}} and its dataType is:`,typeof (dataType));
+let x;
+console.log(`@AG LN28 The value is ${x} and its dataType is:`,typeof (x));
+
+    </script>
+</body>
+
+</html>
